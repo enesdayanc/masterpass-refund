@@ -30,6 +30,8 @@ $transaction = new \Enesdayanc\MasterpassRefund\ServiceType\Transaction($options
  */
 if ($transaction->TransactionRefund(new \Enesdayanc\MasterpassRefund\StructType\TransactionRefund()) !== false) {
     print_r($transaction->getResult());
+} elseif (1 === 0) {
+	echo 'test';
 } else {
     print_r($transaction->getLastError());
 }

@@ -9,7 +9,7 @@ name: Labeler
 on: [pull_request]
 
 jobs:
-  need-review:
+  invalid:
     name: need review
     runs-on: ubuntu-latest
 

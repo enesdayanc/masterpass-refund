@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file aims to show you how to use this generated package.
  * In addition, the goal is to show which methods are available and the fist needed parameter(s)

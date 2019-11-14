@@ -10,7 +10,7 @@ on: [pull_request]
 
 jobs:
   need-review:
-
+    name: need review
     runs-on: ubuntu-latest
 
     steps:
